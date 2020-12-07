@@ -1,9 +1,4 @@
-
 ### Required installations
-
-### Downoload yolov4 weights and paste in data directory
-https://drive.google.com/file/d/19eICWXLr0zc4ea4vm1kx9Nyk64e42B00/view?usp=sharing
-
 ### Conda (Recommended) also using GPU is highly recommended to ensure best fps ratio
 
 ```bash
@@ -30,7 +25,7 @@ pip install -r requirements-gpu.txt
 Make sure to use CUDA Toolkit version 10.1 as it is the proper version for the TensorFlow version used in this repository.
 https://developer.nvidia.com/cuda-10.1-download-archive-update2
 
-### Run program after conda installation, in yolov4-gpu mode type
+### to run program after conda installation, in yolov4-gpu mode type
 ```bash
 python guii.py
 ```

@@ -1,5 +1,9 @@
 
 ### Required installations
+
+### Downoload yolov4 weights and paste in data directory
+https://drive.google.com/file/d/19eICWXLr0zc4ea4vm1kx9Nyk64e42B00/view?usp=sharing
+
 ### Conda (Recommended) also using GPU is highly recommended to ensure best fps ratio
 
 ```bash

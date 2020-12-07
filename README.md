@@ -30,7 +30,7 @@ pip install -r requirements-gpu.txt
 Make sure to use CUDA Toolkit version 10.1 as it is the proper version for the TensorFlow version used in this repository.
 https://developer.nvidia.com/cuda-10.1-download-archive-update2
 
-### to run program after conda installation, in yolov4-gpu mode type
+### Run program after conda installation, in yolov4-gpu mode type
 ```bash
 python guii.py
 ```

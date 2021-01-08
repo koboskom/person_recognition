@@ -62,7 +62,7 @@ class Root(Tk):
     #pick and save video file
     def file_search(self):
         self.filename = filedialog.askopenfilename(initialdir='/home/moi/AGH/3rok/io/yolov4-deepsort-master/data/video', title="Wybierz obrazek",
-                                                   filetypes=(("mpg", "*.mpg"), ("mp4", "*.mp4"), ("All files", "*.*")))
+                                                   filetypes=(("mpg", "*.mpg"), ("mp4", "*.mp4")))
         if self.filename == ():
             self.filename = ''
         if self.filename != '':

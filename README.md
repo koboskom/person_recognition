@@ -12,16 +12,7 @@ conda activate yolov4-cpu
 conda env create -f conda-gpu.yml
 conda activate yolov4-gpu
 ```
-
-### Pip
-(TensorFlow 2 packages require a pip version >19.0.)
-```bash
-# TensorFlow CPU
-pip install -r requirements.txt
-
-# TensorFlow GPU
-pip install -r requirements-gpu.txt
-```
+### Use python up to 3.8.x.
 
 ### Nvidia Driver (For GPU, if you are not using Conda Environment and haven't set up CUDA yet)
 Make sure to use CUDA Toolkit version 10.1 as it is the proper version for the TensorFlow version used in this repository.

@@ -13,12 +13,12 @@ conda env create -f conda-gpu.yml
 conda activate yolov4-gpu
 ```
 ### Use python up to 3.8.x.
-
+### Open on Windows 7 +
 ### Nvidia Driver (For GPU, if you are not using Conda Environment and haven't set up CUDA yet)
 Make sure to use CUDA Toolkit version 10.1 as it is the proper version for the TensorFlow version used in this repository.
 https://developer.nvidia.com/cuda-10.1-download-archive-update2
 
-### to run program after conda installation, in yolov4-gpu mode type
+### To run program after conda installation, in yolov4-gpu mode type
 ```bash
 python guii.py
 ```
